@@ -1,0 +1,62 @@
+
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+      }
+
+      input[type="radio"] {
+        margin-right: 10px;
+      }
+
+      button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+      }
+
+      button:hover {
+        background-color: #3e8e41;
+      }
+
+      #resultado {
+        background-color: #f2f2f2;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+      }
+
+      #resultado label {
+        font-weight: bold;
+        display: inline-block;
+        margin-bottom: 5px;
+      }
+
+      #resultado input[type="text"] {
+        width: 100%;
+      }
+
+      #boton-copiar {
+        background-color: #008CBA;
+      }
+
+      #boton-copiar:hover {
+        background-color: #006380;
+      }
